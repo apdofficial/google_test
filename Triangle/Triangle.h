@@ -5,7 +5,7 @@
 class Triangle {
 public:
     Triangle();
-    std::string triangleShape(double s_1, double s_2, double s_3);
+    std::string triangle_type(double s_1, double s_2, double s_3);
 };
 
 

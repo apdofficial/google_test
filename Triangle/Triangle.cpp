@@ -2,7 +2,7 @@
 
 Triangle::Triangle() = default;
 
-std::string Triangle::triangleShape(double s_1, double s_2, double s_3) {
+std::string Triangle::triangle_type(double s_1, double s_2, double s_3) {
     if ( (s_3 >= (s_1 + s_2)) || (s_2 >= (s_1 + s_3)) || (s_1 >= (s_2 + s_3)) ) {
         return "not a triangle";
     }
